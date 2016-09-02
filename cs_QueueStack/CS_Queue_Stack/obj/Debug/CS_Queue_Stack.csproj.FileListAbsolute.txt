@@ -4,3 +4,6 @@ C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\CS_Queue_Stack\CS_Qu
 C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\CS_Queue_Stack\CS_Queue_Stack\obj\Debug\CS_Queue_Stack.csprojResolveAssemblyReference.cache
 C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\CS_Queue_Stack\CS_Queue_Stack\obj\Debug\CS_Queue_Stack.exe
 C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\CS_Queue_Stack\CS_Queue_Stack\obj\Debug\CS_Queue_Stack.pdb
+C:\Users\ekristiansen\Desktop\GitHub\cs_QueueStack\CS_Queue_Stack\bin\Debug\CS_Queue_Stack.exe.config
+C:\Users\ekristiansen\Desktop\GitHub\cs_QueueStack\CS_Queue_Stack\obj\Debug\CS_Queue_Stack.exe
+C:\Users\ekristiansen\Desktop\GitHub\cs_QueueStack\CS_Queue_Stack\obj\Debug\CS_Queue_Stack.pdb

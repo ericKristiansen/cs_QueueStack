@@ -70,13 +70,14 @@ namespace CS_Queue_Stack
             return result;
         }
 
-        public bool AppendHead(ref Node<T> passNode)
+        public bool AppendHead(ref T passData)
         {
             bool result = false;
             Node<T> second = head;
+            Node<T> node = new Node<T>(ref passData);
             try
             {
-                head = passNode;
+                head = node;
                 head.Next = second;
                 result = true;
             }

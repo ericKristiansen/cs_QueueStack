@@ -12,15 +12,7 @@ namespace CS_Queue_Stack
 
         public bool Dequeue(ref T passData)
         {
-            bool result = false;
-            try
-            {
-                result = RemoveHead(ref passData);
-            }
-            catch (Exception ex)
-            { Console.WriteLine(ex.ToString()); }
-
-            return result;
+            return RemoveHead(ref passData);
         }
 
         public bool Peek(ref T passData)
