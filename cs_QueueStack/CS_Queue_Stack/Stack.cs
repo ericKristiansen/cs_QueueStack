@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CS_Queue_Stack
 {
     /* LIFO: Add to Head, Pull from Head*/
+    /// <summary>
+    /// This class exists to perform 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     class Stack<T> : LinkedList<T>
     {
         public bool Peek(ref T passData)

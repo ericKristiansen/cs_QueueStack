@@ -36,6 +36,11 @@ namespace CS_Queue_Stack
             CopyItem(ref passName, ref passNumber);
         }
 
+        public Item(string passName, string passNumber)
+        {
+            CopyItem(ref passName, ref passNumber);
+        }
+
         private void CopyItem(ref string passName, ref string passNumber)
         {
             this.name = passName;

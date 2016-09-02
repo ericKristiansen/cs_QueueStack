@@ -192,31 +192,40 @@ namespace CS_Queue_Stack
         /// <param name="passSearchString"></param>
         /// <param name="passNode"></param>
         /// <returns></returns>
-        public bool GetMatchingData(string passSearchString, ref Node<T> passNode)
+        public bool GetMatchingData(ref T passData, string passSearchString)
         {
             bool result = false;
-            try
+
+            if (head != null)
             {
-                if (head != null)
+                try
                 {
                     Node<T> current = head;
                     while (current != null && !result)
                     {
-                        if (current.ToString().Equals(passSearchString))
+                        if (current.ToString().Contains(passSearchString))
                         {
-                            passNode = current;
-                            result = true;
+                            passData = current.Data;
+                            result = true; //stopping condition
                         }
                         else
                         {
-                            current = current.Next;
+                            if (current.Next != null)
+                            {
+                                current = current.Next;
+                            }
+                            else
+                            {
+                                current = null; //stopping condition
+                            }
                         }
                     }
+
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
             }
 
             return result;

@@ -1,5 +1,4 @@
 ﻿
-
 namespace CS_Queue_Stack
 {
     /// <summary>
