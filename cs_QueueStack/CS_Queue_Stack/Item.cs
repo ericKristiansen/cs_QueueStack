@@ -3,7 +3,7 @@ namespace CS_Queue_Stack
 {
 
     /// <summary>
-    /// This class exists to hold Item data
+    /// This class exists to hold Item data.
     /// </summary>
     class Item
     {
@@ -20,11 +20,6 @@ namespace CS_Queue_Stack
         {
             get { return number; }
             set { number = value; }
-        }
-
-        public override string ToString()
-        {
-            return name + " : " + number;
         }
 
         public Item()
@@ -45,6 +40,15 @@ namespace CS_Queue_Stack
         {
             this.name = passName;
             this.number = passNumber;
+        }
+
+        /// <summary>
+        /// Override the ToString method.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return name + " : " + number;
         }
     }
 }

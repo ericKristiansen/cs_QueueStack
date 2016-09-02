@@ -6,19 +6,15 @@ namespace CS_Queue_Stack
     {
         static void Main(string[] args)
         {
-            Util.PrintData("Starting...");
+            Console.WriteLine("Starting...");
 
-            TestList<Queue<Item>> myQueueTest = new TestList<Queue<Item>>();
+            TestList myTest = new TestList();
 
-            myQueueTest.RunQueueTest();
-            myQueueTest = null;
+            myTest.RunQueueTest();
 
-            TestList<Stack<Item>> myStackTest = new TestList<Stack<Item>>();
+            myTest.RunStackTest();
 
-            myStackTest.RunStackTest();
-            myStackTest = null;
-
-            Util.PrintData("Ending...");
+            Console.WriteLine("Ending...");
             Console.ReadLine();
         }
     }

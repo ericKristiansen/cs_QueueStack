@@ -2,9 +2,12 @@
 
 namespace CS_Queue_Stack
 {
+    /// <summary>
+    /// This class exists as a wrapper for our data.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     class Node<T>
     {
-        //privaate Node next;
         private T data;
         private Node<T> next;
 

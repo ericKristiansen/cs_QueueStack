@@ -2,7 +2,11 @@
 
 namespace CS_Queue_Stack
 {
-    /* FIFO: Remove Head, Append Tail */
+    /// <summary>
+    /// This class exists to serve FIFO functionality:
+    /// Removes from the head, and appends to the tail.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     class Queue<T> : LinkedList<T>
     {
         public bool Enqueue(ref T passData)

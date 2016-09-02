@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
 namespace CS_Queue_Stack
 {
+    /// <summary>
+    /// This class exists to perform the necessary methods
+    /// of a linked list.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     class LinkedList<T>
     {
         private Node<T> head;
@@ -14,7 +16,12 @@ namespace CS_Queue_Stack
 
         public int Count => count;
 
-        //Serve Peek Functionality
+        /// <summary>
+        /// Retrieve the head data without removing the data
+        /// from the list.
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool GetHeadData(ref T passData)
         {
             bool result = false;
@@ -30,6 +37,12 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Retrieve the tail data without removing it
+        /// from the list
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool GetTail(ref T passData)
         {
             bool result = false;
@@ -45,7 +58,11 @@ namespace CS_Queue_Stack
             return result;
         }
 
-        //add to back of list
+        /// <summary>
+        /// Append data to the tail of the list.
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool AppendTail(ref T passData)
         {
             Node<T> node = new Node<T>(ref passData);
@@ -70,6 +87,11 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Append data to the head of the list.
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool AppendHead(ref T passData)
         {
             bool result = false;
@@ -87,6 +109,11 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Remove data from the head of the list.
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool RemoveHead(ref T passData)
         {
             bool result = false;
@@ -118,6 +145,11 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Remove data from the tail of the list.
+        /// </summary>
+        /// <param name="passData"></param>
+        /// <returns></returns>
         public bool RemoveTail(ref T passData)
         {
             bool result = false;
@@ -154,7 +186,12 @@ namespace CS_Queue_Stack
             return result;
         }
 
-        //GetMatchingString
+        /// <summary>
+        /// Search the list for the matching data.
+        /// </summary>
+        /// <param name="passSearchString"></param>
+        /// <param name="passNode"></param>
+        /// <returns></returns>
         public bool GetMatchingData(string passSearchString, ref Node<T> passNode)
         {
             bool result = false;
@@ -185,6 +222,10 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Print the list to the console.
+        /// </summary>
+        /// <returns></returns>
         public bool PrintListToConsole()
         {
             bool result = false;
@@ -213,6 +254,10 @@ namespace CS_Queue_Stack
             return result;
         }
 
+        /// <summary>
+        /// Get the existing list as a string value.
+        /// </summary>
+        /// <returns></returns>
         public string GetListAsString()
         {
             string resultString = "************************" + Environment.NewLine;
