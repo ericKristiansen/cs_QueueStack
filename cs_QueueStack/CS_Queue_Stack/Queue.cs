@@ -7,7 +7,7 @@ namespace CS_Queue_Stack
     {
         public bool Enqueue(ref T passData)
         {
-            return this.AppdendTail(ref passData);
+            return this.AppendTail(ref passData);
         }
 
         public bool Dequeue(ref T passData)

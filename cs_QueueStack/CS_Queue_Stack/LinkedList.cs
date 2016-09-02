@@ -46,7 +46,7 @@ namespace CS_Queue_Stack
         }
 
         //add to back of list
-        public bool AppdendTail(ref T passData)
+        public bool AppendTail(ref T passData)
         {
             Node<T> node = new Node<T>(ref passData);
             bool result = false;
