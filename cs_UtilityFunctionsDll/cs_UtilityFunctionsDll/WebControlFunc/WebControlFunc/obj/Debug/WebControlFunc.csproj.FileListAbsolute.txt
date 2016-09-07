@@ -1,0 +1,6 @@
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\bin\Debug\WebControlFunc.dll.config
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\bin\Debug\WebControlFunc.dll
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\bin\Debug\WebControlFunc.pdb
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\obj\Debug\WebControlFunc.dll
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\obj\Debug\WebControlFunc.pdb
+C:\Users\ekristiansen\Documents\Visual Studio 2015\Projects\WebControlFunc\WebControlFunc\obj\Debug\WebControlFunc.csprojResolveAssemblyReference.cache
